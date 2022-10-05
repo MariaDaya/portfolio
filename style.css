@@ -1,5 +1,5 @@
 /* CSS Document */
-body {	}
+html{scroll-behavior: smooth;}
 .hero{
 	width: 100%;
 	
@@ -14,7 +14,7 @@ body {	}
 	outline: 0;
 	vertical-align: baseline;
 	background:#312B39;
-	background-image: url("landing.png");
+	background-image: url("images/landing.png");
 	background-attachment:scroll;
 	background-repeat: no-repeat;
 	background-size:contain;
@@ -192,8 +192,38 @@ nav ul li a:hover:after{
 #target{
 	transition-timing-function: ease-in-out;
 	transition-delay: 5s;
+	
+	
 }
 
-html{
-	scroll-behavior: smooth;
-}
+
+
+.dot1 {
+	height: 25px;
+	width: 25px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	background-color: #64cc09;
+  }
+
+  .dot2 {height: 25px;
+	width: 25px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+    background-color: #dbb30f;
+  }
+
+  .dot3
+   {height: 25px;
+	width: 25px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+    background-color: #cc0925;
+  }
+
+  .hello{color: #da5656;}
+
+  span{color: #da5656;}
