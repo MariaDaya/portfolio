@@ -42,7 +42,6 @@ nav{
 	margin-right: 1vw;
 	margin-top: 0;
 	margin-bottom: 0;
-    position: fixed;
     display: flex;
     align-content: right;
 		
@@ -50,7 +49,7 @@ nav{
 
 .logo{
 	
-	display: inline-block;
+	
 	padding-left: 7vw;
 	padding-top: 2vw;
 	margin-top: 10px;
@@ -165,7 +164,7 @@ nav ul li a:hover:after{
     color: #757575;
     margin-top: 2vw;
     margin-bottom: 2vw;
-font-size: 2vw
+    font-size: 2vw
 }
 
 .about{text-align: left; 
@@ -173,7 +172,6 @@ font-size: 2vw
 }
 
 .hero-text{text-align: left}
-
 
 .creative{color:white}
 
