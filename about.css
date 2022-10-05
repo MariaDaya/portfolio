@@ -1,0 +1,19 @@
+.aboutsection{
+    background-color: #d6d5d7;
+}
+
+.window-title{
+    background-color: #da5656;
+    border-color: #312b39;
+    border-radius: 5px;
+}
+
+.window{
+    border-color: #312b39;
+    border-radius: 5px;
+}
+
+.rotate{
+    transform: rotate(90deg);
+}
+

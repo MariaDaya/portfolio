@@ -1,10 +1,10 @@
 /* CSS Document */
-body {	background:#312B39;}
+body {	}
 .hero{
 	width: 100%;
 	
 	min-height: 650px;
-	max-height: 650px;
+	
 	text-align: center;
 	position: right;
     box-sizing: border-box;
@@ -49,7 +49,7 @@ nav{
 
 .logo{
 	
-	
+	display: inline-block;
 	padding-left: 7vw;
 	padding-top: 2vw;
 	margin-top: 10px;
@@ -114,10 +114,9 @@ nav ul li a:hover:after{
     display: inline-block;
     font-weight: 500;
     transition: all .4s ease-in-out;
-    background-size: 152% 100%;
+    background-size:100%;
     background: #fd4766;
     border: 2px solid #fd4766;
-	
 }
 
 .btn:hover{
@@ -127,7 +126,7 @@ nav ul li a:hover:after{
 }
 .content{
 	margin-left: 11vw;
-	padding-top: 11vw;
+	padding-top: 7vw;
 }
 
 .content .title{
@@ -140,9 +139,6 @@ nav ul li a:hover:after{
 	background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-	
-	
-	
 }
 
 .content h1{
@@ -152,7 +148,6 @@ nav ul li a:hover:after{
     line-height: 90px;
     text-transform: inherit;
     width: 70%;
-	
 }
 
 .content h1 span{
@@ -177,3 +172,28 @@ nav ul li a:hover:after{
 
 .nav-item:checked
 { color:rgba(255,201,86,1.00);}
+
+.aboutsection{
+    background-color: #d6d5d7;
+
+}
+
+.window-title{
+    background-color: #da5656;
+    border-color: #312b39;
+    border-radius: 5px;
+}
+
+.window{
+    border-color: #312b39;
+    border-radius: 5px;
+}
+
+#target{
+	transition-timing-function: ease-in-out;
+	transition-delay: 5s;
+}
+
+html{
+	scroll-behavior: smooth;
+}
