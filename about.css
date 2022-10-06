@@ -1,5 +1,6 @@
 .aboutsection{
     background-color: #d6d5d7;
+
 }
 
 .window-title{
@@ -11,9 +12,5 @@
 .window{
     border-color: #312b39;
     border-radius: 5px;
-}
-
-.rotate{
-    transform: rotate(90deg);
 }
 

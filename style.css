@@ -242,3 +242,9 @@ nav ul li a:hover:after{
 	font-weight: 800;
 	text-decoration: none;
 	cursor: pointer;}
+
+	.skillscard{
+		
+			background-color: #da5656;
+			border-color: #312b39;
+	}
